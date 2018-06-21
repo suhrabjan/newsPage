@@ -100,7 +100,7 @@ ul {
   width: 24%;
   text-align: center;
   line-height: 24px;
-  padding: 24px;
+  padding: 1.5em;
   text-transform: uppercase;
 }
 
@@ -329,6 +329,7 @@ main {
 .snippet {
   clear: both;
   margin: 24px 0;
+  padding: 0.25em 0;
 }
 
 .snippet__thumbnail {
@@ -367,6 +368,7 @@ footer {
 footer li {
   display: inline-block;
   margin: 0 2em;
+  padding: 1em 0;
 }
 
 footer a {
