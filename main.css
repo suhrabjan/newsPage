@@ -68,8 +68,8 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
-  margin: 0.5em 0.25em;
+  font-size: 2.48em;
+  margin: 1em 0.5em 0 0;
   display: inline-block;
   color: #212121;
 }
@@ -286,9 +286,13 @@ main {
   vertical-align: middle;
 }
 
+.weather__next {
+  margin-top: 25px;
+}
+
 .weather__today__image {
   vertical-align: middle;
-  width: 40%
+  width: 50%
 }
 
 .weather__today__temp {

@@ -1,0 +1,46 @@
+@media screen and (min-width: 767px) {
+    .weather__today__image {
+        width: 50%;
+    }
+
+    .header__title {
+        font-size: 3.7em;
+        margin: 0.5em 0.5em 0 0;
+    }
+
+    .top-news {
+        height: 230px;
+        margin-top: 1em;
+    }
+
+    section.content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.hero {
+        width: 50%;
+        order: 1;
+    }
+    section.top-news {
+        width: 50%;
+        order: 2;
+    }
+
+    section.scores {
+        width: 60%;
+        order: 3;
+    }
+
+    section.weather{
+        width: 40%;
+        order: 4;
+    }
+
+    section.recent-news {
+        width: 100%;
+        order: 5;
+    }
+}
