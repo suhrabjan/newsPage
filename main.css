@@ -1,10 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
 
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  font-size: 25px;
-  text-rendering: optimizeLegibility;
-}
 
 body, html {
   margin: 0;
