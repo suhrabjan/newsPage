@@ -54,12 +54,26 @@ ul {
   max-width: 951px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+.header__menu {
+  flex-basis: 12%;
+  /*background: lightgrey;*/
+
+}
+
+#menu svg {
+  position: relative;
+  top: 23px;
+  width: 40px;
+  fill: black;
 }
 
 .header__inner {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  flex-basis: 88%;
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 
 .header__logo {
@@ -71,8 +85,9 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 2.48em;
-  margin: 1em 0.5em 0 0;
+  font-size: 2.25em;
+  margin-top: 1em;
+  /*text-align: center;*/
   display: inline-block;
   color: #212121;
 }
@@ -84,15 +99,28 @@ ul {
  *
  */
 
-.nav {
+nav {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 200px;
+/*  margin-left: auto;
+  margin-right: auto;*/
   max-width: 950px;
+  /*position: absolute;*/
+  background: #2e3d49;
+  transform: translate(0, -300px);
 }
 
+nav.open {
+  transform: translate(0, 0);
+}
+
+/*nav.open {
+  transform: translate(0, 300px);
+}
+*/
 .nav__list {
   width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-size: 15px;
@@ -100,22 +128,25 @@ ul {
 
 .nav__item {
   box-sizing: border-box;
-  display: inline-block;
-  width: 24%;
+  display: block;
+  width: 100%;
+  height: 25%;
   text-align: center;
-  line-height: 24px;
-  padding: 1.5em;
+  line-height: 15px;
+  padding: 1em;
   text-transform: uppercase;
+  border: 1px solid #1c262f;
+
 }
 
-.nav a {
+nav a {
   text-decoration: none;
-  color: #616161;
+  color: white;
 }
 
-.nav a:hover {
+nav a:hover {
   text-decoration: underline;
-  color: #212121;
+  color: silver;
 }
 
 
@@ -131,6 +162,11 @@ main {
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
+  transform: translate(0, -200px);
+}
+
+main.open {
+  transform: translate(0, 0);
 }
 
 /*
@@ -387,3 +423,6 @@ footer a {
   color: #333;
   width: 100%;
 }
+
+
+

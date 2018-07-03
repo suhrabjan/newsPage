@@ -4,7 +4,7 @@
     }
 
     .header__title {
-        font-size: 3.7em;
+        font-size: 3.5em;
         margin: 0.5em 0.5em 0 0;
     }
 
@@ -43,4 +43,36 @@
         width: 100%;
         order: 5;
     }
+
+    nav {
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        transform: translate(0, 0);
+    }
+    main {
+        transform: translate(0, 0);
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__item {
+        display: inline-block;
+        width: 25%;
+        border: none;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        /*height: 100%;*/
+    }
+
+    .header__inner {
+        width: 100%;
+    }
+
+    svg{
+        display: none;
+    }
+
 }

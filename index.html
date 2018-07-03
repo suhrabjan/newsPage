@@ -19,9 +19,16 @@
           The Brighton Times
         </h1>
       </div>
+      <div class="header__menu">
+        <a href="#" id="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
+            </svg>
+          </a>
+      </div>
     </header>
 
-    <nav id="drawer" class="nav">
+    <nav id="drawer" class="nav_class">
       <ul class="nav__list">
         <li class="nav__item"><a href="#">News</a></li>
         <li class="nav__item"><a href="#">Events</a></li>
@@ -180,5 +187,20 @@
         </ul>
       </footer>
     </main>
+    <script>
+        var menu = document.querySelector('#menu');
+        var main = document.querySelector('main');
+        var drawer = document.querySelector('#drawer');
+
+        menu.addEventListener('click', function(e) {
+          drawer.classList.toggle('open');
+          main.classList.toggle('open');
+          e.stopPropagation();
+        });
+        main.addEventListener('click', function() {
+          drawer.classList.remove('open');
+          main.classList.remove('open');
+        });
+    </script>
   </body>
 </html>
