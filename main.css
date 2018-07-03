@@ -215,9 +215,8 @@ main.open {
 .top-news {
   float: right;
   width: 100%;
-  height: 300px;
-  border-bottom: 1px solid #E0E0E0;
-  padding: 1em;
+  height: 100%;
+  padding: 2em 1em 2em 2em;
 }
 
 .news__title {
@@ -257,50 +256,96 @@ main.open {
  * Sport Scores
  *
  */
+/*td {
+  display: table-cell;
+}*/
 
-.scores {
+table {
   width: 100%;
-  float: left;
-  padding-top: 1em;
+  border-spacing: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.scores__table {
-  width: 100%;
-  border-collapse: collapse;
+.second {
+  width: 300px;
 }
 
-.scores__table th,
-.scores__table td {
-  padding: 1em;
+.first {
+  width: 32px;
 }
 
-.scores__table th {
-  color: #fff;
-  font-weight: 300;
-  background-color: #78909C;
+.third {
+  width: 25px;
 }
 
-.scores__table tr:nth-child(odd) td {
-  background-color: #fff;
+.fourth {
+  width: 25px;
 }
 
-.scores__table tr:nth-child(even) td {
-  background-color: #eceff1;
+.fifth {
+  width: 25px;
 }
 
-.scores__table td.winner {
-  font-weight: bold;
+.sixth {
+  width: 25px;
 }
 
-.scores__table td:nth-child(3) {
-  text-align: right;
+.seventh {
+  width: 25px;
 }
 
-.scores__table td:nth-child(2),
-.scores__table td:nth-child(5) {
+.eighth {
+  width: 25px;
+}
+
+.nineth {
+  width: 25px;
+}
+
+.tenth {
+  width: 25px;
+}
+
+.bordering {
+  border-bottom: 1px solid #DFE1E5;
+  padding-bottom: 8px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.contentt {
+  border-bottom: 1px solid #DFE1E5;
   text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  height: 40px;
+  color: rgba(0,0,0,.87);
 }
 
+.contentt2 {
+  border-bottom: 1px solid #DFE1E5;
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  height: 40px;
+  color: rgba(0,0,0,.87);
+}
+
+tr:last-child .contentt {
+  border-bottom: none;
+  padding-bottom: 2em;
+}
+tr:last-child .contentt2 {
+  border-bottom: none;
+  padding-bottom: 2em;
+}
+
+.group_name {
+  text-align: left;
+  font-size: 16px;
+  padding-left: 0.5em;
+}
 /*
  *
  * Weather
@@ -370,7 +415,7 @@ main.open {
 
 .recent-news {
   clear: both;
-  padding: 1em;
+  padding: 4em 1em 0.5em 1em;
 }
 
 .snippet {
