@@ -3,6 +3,7 @@
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
   font-size: 25px;
+  text-rendering: optimizeLegibility;
 }
 
 body, html {
