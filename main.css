@@ -424,17 +424,19 @@ footer li {
 }
 
 footer a {
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   cursor: pointer;
   color: black;
+  font-size: 30px;
   /*color: #333;*/
 }
 
 footer a:hover {
   background: black;
   color: white;
-  transition: all 0.35s ease;
+  transform: rotate(360deg);
+  transition: all 0.75s ease;
   /*color: #333;*/
 }
 
