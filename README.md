@@ -1,3 +1,5 @@
-# suhrabjan.github.io
+# Example news page
 
-Learning to create a responsive website for smartphones, tablets, as well as large screen laptops and monitors.
+A responsive website for smartphones, tablets, as well as large screen laptops and monitors.
+
+[Link](https://suhrabjan.github.io/newsPage/)
